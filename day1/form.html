@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+    <script type="text/javascript"src="form1.js"></script>
+</head>
+<body>
+    <Form>
+        <fieldset>
+            
+        <h1><u>Form</u></h1>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname"><br>
+            <br>
+            <label for = "lname">Last name:</label>
+            <input type="text" id="lname" >
+            <br><br>
+            
+            <label for="gen">Gender:</label><br>
+            <input type="radio" id="gen" name="g">
+            <label for="gen">Male</label>
+            <input type="radio" id="gen" name="g">
+            <label for="gen">Female</label><br><br>
+            
+            <label for="sub">Subject:</label><br>
+            <input type="checkbox" id="sub">
+            <label for="sub">English</label><br>
+            <input type="checkbox" id="sub">
+            <label for="sub">Math</label><br>
+            <input type="checkbox" id="sub">
+            <label for="sub">Science</label><br><br>
+            
+            <label for ="chosecar">Choose a college: </label>
+            <select id="chosecar">
+                <option>SKCET</option>
+                <option>SKCT</option>
+                <option>PSG</option>
+                <option>KCT</option>
+            </select><br><br>
+            
+            <label for="date">Enter dob:</label><br>
+            <input type="date"><br><br>
+
+            <label for="Phone number">Phone Number:</label><br><br>
+            <input type="text" maxlength="10" pattern="[0-9]+"><br><br>
+            
+            
+            
+            <input type="Submit">
+        </fieldset>
+        <fieldset>
+            <legend> <h2>Script</h2></legend>
+            <input id="name" type="text" placeholder="Enter your name:"><br><br>
+            <input type="button"  onclick="clickevent()" value="Click here!">
+        </fieldset>
+        <fieldset>
+            <legend><h2>If Else Execution</h2></legend>
+            <input id="firstname" type="text" placeholder="Enter num1:"><br><br>
+            <input id="secondname" type="text" placeholder="Enter num2:"><br><br>
+            <input type="button"  onclick="ifelse()" value="Click here!">
+
+        </fieldset>
+        </form>
+</body>
+</html>
