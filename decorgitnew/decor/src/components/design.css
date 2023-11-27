@@ -1,0 +1,48 @@
+/* .aa{
+  /* background-color:white; */
+  /* padding: 60px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8); */
+  /* background-image: url(https://www.asalta.com/storage/x0_0-asalta-inventory-right-banner-e185a4b9_8730ea20.png.pagespeed.ic.-ntuhe2RL0.png); */
+   /* align-items: center;  */
+/* background-image: url(); */
+  /* backdrop-filter: blur(50px); */
+
+/* }  */
+.aa{
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(70px); 
+  }
+  .icon{
+    text-align: center;
+    padding-bottom: 20px;
+  
+  }
+  .login {
+    font-family: Arial, sans-serif;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/79/24/old-craft-carton-seamless-pattern-with-grainy-vector-45127924.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-items: center;
+  }
+  
+   .login
+  {
+    background-image: url("https://img.freepik.com/premium-photo/empty-room-interior-with-armchair-decorating-idea-white-wall-background-3d-rendering_41470-4375.jpg?w=996");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+  } 
+  .ab{
+    align-items: center;
+    background-color: black;
+  }
