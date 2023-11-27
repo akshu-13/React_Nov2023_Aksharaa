@@ -1,0 +1,12 @@
+
+
+.welc {
+  background-image: url('https://images.adsttc.com/media/images/6287/6ce9/3e4b/31cc/7400/000e/large_jpg/FI1.jpg?1653042403'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
+  background-repeat:no-repeat ;
+  background-size:cover;
+
+   padding: 200px;  
+  border-radius: 10px;
+  color: white; 
+  text-align: top;
+}
